@@ -1,0 +1,18 @@
+{% load static %}
+
+<nav class="navbar navbar-expand-lg navbar-dark", id="navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold fst-italic" href="{% url 'home' %}">JD</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link fg-white" href="{% url 'blog:posts' %}">Blog</a>
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <a class="btn btn-primary btn-sm" href="{% static 'portfolio/formato_hoja_vida.pdf' %}" target="_blank">Download CV</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
