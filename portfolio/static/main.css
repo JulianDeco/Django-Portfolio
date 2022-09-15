@@ -1,15 +1,15 @@
 body {
-    background: #04141D;
+    background: #ffcdb2;
 }
 p{
     opacity: 0.9;
 }
-.bg-black{
-    background: #051C29;
-}
 
+.color-div{
+    background: #255f85;
+}
 .card-project:hover {
-    border: 4px solid #ffff;
+    border: 2px solid #000000;
     cursor: pointer;
 }
 
@@ -36,28 +36,28 @@ img {
 } 
 
 #navbar{
-    background: #020B0F;    
+    background: #255f85;    
 }
 
 .contenedor-gigante{
-    background: #051C29;
+    background: #255f85;
     
 }
 
 #div-items{
-    background: #051C29;
+    background: #255f85;
 }
 
 
 #div-pres{
-    background: #051C29;
+    background: #255f85;
     flex-wrap: wrap;
     display: flex;
     border-radius: 20px 20px 20px 20px;
 }
 
 #parr-projects{
-    background: #051C29;
+    background: #255f85;
     border-radius: 20px 20px 20px 20px;
 }
 
@@ -69,4 +69,10 @@ img {
 
 #div-header{
     border-radius: 20px 20px 20px 20px;
+    background: #255f85;
 }
+
+#imagen{
+    border-radius: 20px 20px 20px 20px;
+}
+
