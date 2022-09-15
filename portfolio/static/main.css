@@ -59,3 +59,10 @@ img {
     background: #051C29;
     border-radius: 15px;
 }
+
+#div-projects{
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+
+}
