@@ -189,3 +189,7 @@ section{
 .tecnologias-text{
     padding: 10vm;
 }
+
+.contenedor-post-detail{
+    padding: 80px;
+}
